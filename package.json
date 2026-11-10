@@ -1,0 +1,65 @@
+{
+  "name": "dsh-plugin-context-cleanup-master",
+  "version": "1.0.0",
+  "description": "给 DeepSeek Harness 的整蛊插件：一键清理悬浮球——扫描近期会话的真实 token 消耗、播放管家式清理动画，然后开一个全新会话。A prank one-click cleanup floating ball for DSH.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "context",
+    "cleanup",
+    "prank",
+    "floating-ball"
+  ],
+  "author": "JJJACKsong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJJACKsong/dsh-plugin-context-cleanup-master.git"
+  },
+  "homepage": "https://github.com/JJJACKsong/dsh-plugin-context-cleanup-master#readme",
+  "bugs": {
+    "url": "https://github.com/JJJACKsong/dsh-plugin-context-cleanup-master/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# 上下文清理大师 bundle patch。
+#
+# 本包只有浏览器半（client.js）：在 shell.overlay 挂一个常驻悬浮球。
+# Host 半 index.js 是空壳 apply()，不发布 service、不注册工具、不写任何文件，
+# 所以不需要额外依赖行。
+#
+# 行 id 必须唯一：`context-cleanup-master` 未与任何已装 bundle 冲突。
+- insert:
+    - id: context-cleanup-master
+      name: 'dsh-plugin-context-cleanup-master'

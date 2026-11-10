@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Context Cleanup Master",
+    "description": "A floating ball that deep-scans recent sessions' token usage, plays a one-click cleanup animation, and then opens a brand-new session."
+  }
+}
