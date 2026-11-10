@@ -1,16 +1,17 @@
 # 上下文清理大师 · Context Cleanup Master
 
-**给 DeepSeek Harness（DSH）加一颗「一键清理」悬浮球：深度扫描近期会话的真实 token 消耗，播完管家式清理动画，然后——开一个全新会话。**
+**为 DeepSeek Harness（DSH）打造的下一代上下文性能层：零模型调用完成近期会话画像与上下文健康度审计，在悬浮仪表盘上实时呈现 token 账本，并以一次点击供给一个纯净的零上下文工作区。**
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![dsh](https://img.shields.io/badge/dsh-%3E%3D0.2.0-4f8ef7.svg)](#兼容性)
 [![platform](https://img.shields.io/badge/platform-web%20ui-e8912a.svg)](#兼容性)
+[![npm](https://img.shields.io/npm/v/dsh-plugin-context-cleanup-master?color=6c5ce7)](https://www.npmjs.com/package/dsh-plugin-context-cleanup-master)
 
-> **English**: A prank "one-click cleanup" floating ball for DeepSeek Harness. It scans recent
-> sessions' **real** token usage from the session catalog, plays a full old-school cleaner
-> animation (radar scan → context-health score report → cleaning progress → 100 score), and then
-> starts a brand-new session. It never calls a model, never writes session data — the only real
-> side effect is the new empty session.
+> **其实只是 /new。**
+>
+> **English**: A next-generation context performance layer for DeepSeek Harness: zero-model-call
+> session profiling, context-health auditing on a floating dashboard, a real-time token ledger, and
+> a pristine zero-context workspace provisioned in one click. It is, in fact, just `/new`.
 
 ---
 

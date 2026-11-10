@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Context Cleanup Master",
-    "description": "A floating ball that deep-scans recent sessions' token usage, plays a one-click cleanup animation, and then opens a brand-new session."
+    "description": "A context performance layer for DeepSeek Harness: zero-model-call session profiling, context-health auditing on a floating dashboard, a real-time token ledger, and one-click zero-context workspace provisioning. It is, in fact, just /new."
   }
 }

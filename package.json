@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-context-cleanup-master",
-  "version": "1.0.1",
-  "description": "给 DeepSeek Harness 的整蛊插件：一键清理悬浮球——扫描近期会话的真实 token 消耗、播放管家式清理动画，然后开一个全新会话。A prank one-click cleanup floating ball for DSH.",
+  "version": "1.0.2",
+  "description": "为 DSH 打造的上下文性能层：零模型调用会话画像、上下文健康度审计与零上下文工作区供给。其实只是 /new。A context performance layer for DeepSeek Harness — it is, in fact, just /new.",
   "type": "module",
   "main": "./index.js",
   "exports": {
