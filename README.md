@@ -49,13 +49,19 @@
 
 ## 安装
 
-### 从 npm 安装（推荐）
+### 从 GitHub 安装（v1.0.0 起可用）
+
+```bash
+dsh plugin --profile <profile> add github:JJJACKsong/dsh-plugin-context-cleanup-master
+```
+
+### 从 npm 安装
 
 ```bash
 dsh plugin --profile <profile> add dsh-plugin-context-cleanup-master
 ```
 
-或在 DSH Desktop 的插件管理页搜索包名安装。包页：https://www.npmjs.com/package/dsh-plugin-context-cleanup-master
+> npm 首发版本已提交、正在 npm 的 staged publishing 审核队列中（首个版本占位符 `0.0.0-stage`），审核通过前请先用上面的 GitHub 方式安装。包页：https://www.npmjs.com/package/dsh-plugin-context-cleanup-master
 
 ### 本地目录安装
 
